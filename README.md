@@ -8,32 +8,41 @@ Sometimes you feel like a tool just makes sense. Over the years, I came up accro
 4. [Bitwarden](https://bitwarden.com/)
 
 # Firefox extensions
-1. Don't track me Google
-2. DuckDuckGo Privacy Essentials
-3. Facebook container
-4. Fake filler
-5. Fontanello
-6. Gesturify
-7. HTTPS everywhere
-8. Popup Blocker Ultimate
-9. Search by image
-10. Simple translate
-11. Temp mail
-12. Wappalyzer
-14. React Developer tools
-15. Vue.js devtools
-16. Webhint
-
+<details>
+  <summary>Extensions</summary>
+  
+  1. Don't track me Google
+  2. DuckDuckGo Privacy Essentials
+  3. Facebook container
+  4. Fake filler
+  5. Fontanello
+  6. Gesturify
+  7. HTTPS everywhere
+  8. Popup Blocker Ultimate
+  9. Search by image
+  10. Simple translate
+  11. Temp mail
+  12. Wappalyzer
+  14. React Developer tools
+  15. Vue.js devtools
+  16. Webhint
+</details>
+  
 # Ubuntu
 ## Gnome extensions
-1. Burn my windows
-2. Clipboard indicator
-3. Color picker
-4. Removable Drive Menu
-5. Screenshot Tool
-6. Lock keys
-7. Refresh Wifi Connections
-8. Remove Alt+Tab Delay v2
+<details>
+  <summary>Extensions</summary>
+  
+  1. Burn my windows
+  2. Clipboard indicator
+  3. Color picker
+  4. Removable Drive Menu
+  5. Screenshot Tool
+  6. Lock keys
+  7. Refresh Wifi Connections
+  8. Remove Alt+Tab Delay v2
+  9. NoAnnoyance v2
+</details>
 
 ## [bat](https://github.com/sharkdp/bat).
 >  _A cat(1) clone with syntax highlighting and Git integration. Once you've tried it, there is no coming back._
