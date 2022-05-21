@@ -6,6 +6,10 @@ Sometimes you feel like a tool just makes sense. Over the years, I came up accro
 2. [Notion](https://notion.so/)
 3. [Figma](https://figma.com/)
 4. [Bitwarden](https://bitwarden.com/)
+5. [Spline](https://spline.design/)
+
+# Software
+1. [Tinkerwell](https://tinkerwell.app/)
 
 # Firefox extensions
 <details>
@@ -46,6 +50,9 @@ Sometimes you feel like a tool just makes sense. Over the years, I came up accro
 
 ## [bat](https://github.com/sharkdp/bat).
 >  _A cat(1) clone with syntax highlighting and Git integration. Once you've tried it, there is no coming back._
+
+## [Ulauncher](https://ulauncher.io/)
+> _Ulauncher is a fast application launcher for Linux. It's is written in Python, using GTK+, and features: App Search (fuzzy matching), Calculator, Extensions, Shortcuts, File browser mode and Custom Color Themes_
 
 ## [Oh-my-zsh](https://ohmyz.sh/)
 > _Once installed, your terminal shell will become the talk of the town or your money back! With each keystroke in your command prompt, you'll take advantage of the hundreds of powerful plugins and beautiful themes. Strangers will come up to you in cafés and ask you, "that is amazing! are you some sort of genius?"_
