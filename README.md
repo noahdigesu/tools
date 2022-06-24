@@ -48,7 +48,7 @@ Sometimes you feel like a tool just makes sense. Over the years, I came up accro
   9. NoAnnoyance v2
 </details>
 
-## [bat](https://github.com/sharkdp/bat).
+## [bat](https://github.com/sharkdp/bat)
 >  _A cat(1) clone with syntax highlighting and Git integration. Once you've tried it, there is no coming back._
 
 ## [Ulauncher](https://ulauncher.io/)
@@ -74,6 +74,7 @@ Theme : `robbyrussell` (or [pure](https://github.com/sindresorhus/pure))
   10. gitignore
   11. heroku
   12. autoupdate
+  13. sudo
 </details>
 
 <details>
