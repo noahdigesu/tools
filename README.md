@@ -76,7 +76,8 @@ Sometimes you feel like a tool just makes sense. Over the years, I came up accro
 ### [Oh-my-zsh](https://ohmyz.sh/)
 > _Once installed, your terminal shell will become the talk of the town or your money back! With each keystroke in your command prompt, you'll take advantage of the hundreds of powerful plugins and beautiful themes. Strangers will come up to you in cafés and ask you, "that is amazing! are you some sort of genius?"_
 
-Theme : `robbyrussell` (or [pure](https://github.com/sindresorhus/pure))  
+Theme : custom `robbyrussell` (or [pure](https://github.com/sindresorhus/pure))  
+Color scheme : custom `neon-night` ([Gogh](https://gogh-co.github.io/Gogh/))
 
 <details>
   <summary>Plugins</summary>
