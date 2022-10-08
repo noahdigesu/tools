@@ -48,13 +48,32 @@ Sometimes you feel like a tool just makes sense. Over the years, I came up accro
   9. NoAnnoyance v2
 </details>
 
-## [bat](https://github.com/sharkdp/bat)
+## CLI tools that will change your life
+
+### [bat](https://github.com/sharkdp/bat)
 >  _A cat(1) clone with syntax highlighting and Git integration. Once you've tried it, there is no coming back._
 
-## [Ulauncher](https://ulauncher.io/)
-> _Ulauncher is a fast application launcher for Linux. It's is written in Python, using GTK+, and features: App Search (fuzzy matching), Calculator, Extensions, Shortcuts, File browser mode and Custom Color Themes_
+### [exa](https://github.com/ogham/exa)
+> _A modern replacement for the venerable file-listing command-line program ls that ships with Unix and Linux operating systems, giving it more features and better defaults. It uses colours to distinguish file types and metadata. It knows about symlinks, extended attributes, and Git._
 
-## [Oh-my-zsh](https://ohmyz.sh/)
+### [ripgrep](https://github.com/BurntSushi/ripgrep)
+> _`ripgrep` is a line-oriented search tool that recursively searches the current directory for a regex pattern. By default, ripgrep will respect gitignore rules and automatically skip hidden files/directories and binary files._
+
+### [fd](https://github.com/sharkdp/fd)
+> _`fd` is a program to find entries in your filesystem. It is a simple, fast and user-friendly alternative to find._
+
+### [fzf](https://github.com/junegunn/fzf)
+> _`fzf` is a general-purpose command-line fuzzy finder._
+
+### [duf](https://github.com/muesli/duf)
+> _Disk Usage/Free Utility - a better `df` alternative._
+
+### [litecli](https://github.com/dbcli/litecli)
+> _A command-line client for SQLite databases that has auto-completion and syntax highlighting._
+
+## Shell
+
+### [Oh-my-zsh](https://ohmyz.sh/)
 > _Once installed, your terminal shell will become the talk of the town or your money back! With each keystroke in your command prompt, you'll take advantage of the hundreds of powerful plugins and beautiful themes. Strangers will come up to you in cafés and ask you, "that is amazing! are you some sort of genius?"_
 
 Theme : `robbyrussell` (or [pure](https://github.com/sindresorhus/pure))  
@@ -88,13 +107,30 @@ Theme : `robbyrussell` (or [pure](https://github.com/sindresorhus/pure))
   <summary>Aliases</summary>
   
   ```bash
-  alias hyperconfig="nano ~/.hyper.js"
+  ## long commands
+  alias apt-deb="sudo apt install ./*.deb -y && rm *.deb"
+
+  ## alternative commands & extra args
+  alias du="duf"
+  alias cat="bat --theme=OneHalfDark"
+  alias find="fdfind"
+  alias grep="rg"
+  alias diff="colordiff"
+  alias ls="exa -lg"
+  alias ll="exa -lg"
+  alias la="exa -alg"
+  alias sqlite="litecli"
+  alias sqlite3="litecli"
+  alias fzf="fzf --color=dark"
+
+  ## shorthands
+  alias c="code"
+  alias s="sudo"
+  alias arti='php artisan'
+
+  ## configs
   alias zshconfig="nano ~/.zshrc"
   alias zshup="source ~/.zshrc"
-  alias cat="bat"
-  alias python='ipython3'
-  alias arti='php artisan'
-  alias c="code"
   ```
 </details>
 
@@ -112,19 +148,14 @@ Theme : `robbyrussell` (or [pure](https://github.com/sindresorhus/pure))
     sudo apt dist-upgrade -y
     sudo apt autoremove -y
     sudo apt clean
+    sudo snap refresh
     notify-send "Update" "System has been successfully updated." -t 500
   }
   ```
 </details>
 
-## [Hyper.js](https://hyper.is/)
-> _Possibly the most beautiful and customizable terminal you can get._
+## Search bar
+### [Ulauncher](https://ulauncher.io/)
+> _Ulauncher is a fast application launcher for Linux. It's is written in Python, using GTK+, and features: App Search (fuzzy matching), Calculator, Extensions, Shortcuts, File browser mode and Custom Color Themes_
 
-Theme : [hyper-snazzy](https://www.npmjs.com/package/hyper-snazzy)  
-<details>
-  <summary>Plugins</summary>
-  
-  1. [hyperpower](https://www.npmjs.com/package/hyperpower)
-  2. [hyper-drop-file](https://www.npmjs.com/package/hyper-drop-file)
-  3. [hyper-statusline](https://www.npmjs.com/package/hyper-statusline)
-</details>
+Theme : [WhiteSur Dark](https://github.com/Raayib/WhiteSur-Dark-ulauncher)
